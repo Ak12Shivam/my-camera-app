@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Camera Access</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Camera Stream</h1>
+        <div class="video-container">
+            <video id="videoElement" autoplay playsinline></video>
+        </div>
+        <div class="controls">
+            <button id="frontCameraButton">Front Camera</button>
+            <button id="backCameraButton">Back Camera</button>
+            <button id="captureButton">Capture Frame</button>
+        </div>
+        <h2>Captured Images</h2>
+        <div class="captured-images" id="capturedImages"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
